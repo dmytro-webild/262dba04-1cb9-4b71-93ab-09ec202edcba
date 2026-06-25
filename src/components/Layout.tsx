@@ -8,32 +8,25 @@ import { StyleProvider } from "@/components/ui/StyleProvider";
 export default function Layout() {
   const navItems = [
   {
-    "name": "About",
-    "href": "#about"
+    "name": "About",    "href": "#about"
   },
   {
-    "name": "Groceries",
-    "href": "#products"
+    "name": "Groceries",    "href": "#products"
   },
   {
-    "name": "Testimonials",
-    "href": "#testimonials"
+    "name": "Testimonials",    "href": "#testimonials"
   },
   {
-    "name": "Contact",
-    "href": "#contact"
+    "name": "Contact",    "href": "#contact"
   },
   {
-    "name": "Hero",
-    "href": "#hero"
+    "name": "Hero",    "href": "#hero"
   },
   {
-    "name": "Features",
-    "href": "#features"
+    "name": "Features",    "href": "#features"
   },
   {
-    "name": "Faq",
-    "href": "#faq"
+    "name": "Faq",    "href": "#faq"
   }
 ];
 
@@ -43,10 +36,9 @@ export default function Layout() {
       <SectionErrorBoundary name="navbar">
         <NavbarFloatingLogo
       logo="Sony KMB Market"
+      logoImageSrc="http://img.b2bpic.net/free-vector/flat-design-golf-logo-template_23-2149375273.jpg"
       ctaButton={{
-        text: "Visit Us",
-        href: "#contact",
-      }}
+        text: "Visit Us",        href: "#contact"}}
      navItems={navItems} />
       </SectionErrorBoundary>
       <main className="flex-grow">
@@ -59,35 +51,25 @@ export default function Layout() {
         {
           items: [
             {
-              label: "Via G. Matteotti, 49, 43017",
-            },
+              label: "Via G. Matteotti, 49, 43017"},
             {
-              label: "San Secondo Parmense, PR",
-            },
+              label: "San Secondo Parmense, PR"},
           ],
         },
         {
           items: [
             {
-              label: "351 261 7506",
-              href: "tel:+393512617506",
-            },
+              label: "351 261 7506",              href: "tel:+393512617506"},
             {
-              label: "Email Us",
-              href: "mailto:info@kmbmarket.it",
-            },
+              label: "Email Us",              href: "mailto:info@kmbmarket.it"},
           ],
         },
         {
           items: [
             {
-              label: "About",
-              href: "#about",
-            },
+              label: "About",              href: "#about"},
             {
-              label: "Products",
-              href: "#products",
-            },
+              label: "Products",              href: "#products"},
           ],
         },
       ]}
