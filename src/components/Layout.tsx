@@ -43,6 +43,7 @@ export default function Layout() {
       <SectionErrorBoundary name="navbar">
         <NavbarFloatingLogo
       logo="Sony KMB Market"
+      logoImageSrc="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=128&h=128&fit=crop&q=80"
       ctaButton={{
         text: "Visit Us",
         href: "#contact",
